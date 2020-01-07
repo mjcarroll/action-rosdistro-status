@@ -1,0 +1,38 @@
+%YAML 1.1
+---
+buildfarm:
+  ros1:
+    frozen: false
+  ros2:
+    frozen: false
+distributions:
+  ardent:
+    frozen: false
+  bouncy:
+    frozen: false
+  crystal:
+    frozen: false
+  dashing:
+    frozen: true
+  eloquent:
+    frozen: true
+  foxy:
+    frozen: false
+  groovy:
+    frozen: false
+  hydro:
+    frozen: false
+  indigo:
+    frozen: false
+  jade:
+    frozen: false
+  kinetic:
+    frozen: false
+  lunar:
+    frozen: false
+  melodic:
+    frozen: true
+  noetic:
+    frozen: false
+type: status
+version: 1

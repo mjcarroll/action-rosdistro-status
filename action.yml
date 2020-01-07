@@ -1,10 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'ROS Distro Status'
+description: 'Check various properties of ROS Distro status'
+author: 'Open Robotics'
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  checks:
+    description: 'Checks to be run'
+    default: 'eol,single_distro,distro_freeze,ros_freeze'
 runs:
   using: 'node12'
   main: 'dist/index.js'
